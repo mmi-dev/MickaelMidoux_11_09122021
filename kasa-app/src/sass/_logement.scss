@@ -1,0 +1,115 @@
+.lgt{
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+    padding-bottom: 50px;
+    &-details{
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        @media (max-width: 768px){
+            flex-direction: column;
+            padding: 15px 0 0;
+        }
+    }
+    &-details-g{
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+        @media (max-width: 768px){
+            width:100%;
+        }
+    }
+    &-title{
+        font-size: 36px;
+        @media (max-width: 768px){
+            font-size: 18px;
+        }
+    }
+    &-location{
+        font-size:18px;
+        @media (max-width: 768px){
+            font-size: 14px;
+        }
+        
+    }
+    &-tag{
+        font-size:14px;
+        display: flex;
+        gap: 10px;
+        padding: 10px 0;
+        align-items: center;
+        @media (max-width: 768px){
+            font-size: 10px;
+            padding-top:0;
+        }
+        & span{
+            color:white;
+            height: 25px;
+            line-height: 25px;
+            background-color: $primary-color;
+            border-radius: 10px;
+            align-self: center;
+            padding: 0 30px;
+            @media (max-width: 768px){
+                height: 18px;
+                line-height: 18px;
+                border-radius: 5px;
+                padding: 0 20px;
+            }
+        }
+    }
+    &-details-d{
+        display: flex;
+        gap:10px;
+        align-items: flex-end;
+        flex-direction: column;
+        @media (max-width: 768px){
+            width:100%;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    &-host{
+            
+        display: flex;
+        align-items: center;
+        gap:15px;
+        &__name{
+            display: flex;
+            gap:10px;
+            align-items: flex-end;
+            flex-direction: column;
+            font-size:18px;
+            @media (max-width: 768px){
+                font-size: 12px;
+                gap:5px;
+            }
+        }
+        &__picture{
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            overflow: hidden;
+            @media (max-width: 768px){
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+    &-rating{
+        display: flex;
+    }
+    & .dropdown_wrapper{
+        width: 100%;
+        display: grid;
+        gap: 76px;
+        grid-template-columns: repeat(2, 1fr);
+        @media (max-width: 972px){
+            gap: 30px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
