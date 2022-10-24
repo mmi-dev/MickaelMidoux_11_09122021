@@ -15,20 +15,18 @@ header{
         height:47px;
     }
 }
-
 nav {
     font-size:24px;
     @media (max-width: 768px){
         font-size:12px;
     }
-    
     & ul {
-    display:flex;
-    & li{
-        padding: 10px;
-        & a:hover{
-            text-decoration: underline;
+        display:flex;
+        & li{
+            padding: 10px;
+            & a:hover{
+                text-decoration: underline;
+            }
         }
-    }
     }
 }

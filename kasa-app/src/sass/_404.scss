@@ -1,27 +1,22 @@
 
 .error{
-    // position:relative;
     display: flex;
     flex-grow:1;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
     height: 100%;
-    // padding: 50px 0;
     &-no{
-        // position:relative;
         display: flex;
         flex-grow:1;
         font-size: 288px;
         font-weight:700;
-        // height: 100%;
         margin: 0 auto;
         justify-content: center;
         align-items: flex-end;
         & span{
             height: 100%;
             text-align: center;
-
         }
         @media (max-width: 768px){
             font-size: 96px;
@@ -41,15 +36,13 @@
         & span{
             display: inline-block;
             @media (max-width: 768px){
-            
-        line-height: 28px;
+                line-height: 28px;
             }
         }
         @media (max-width: 768px){
-        max-width:400px;
-        margin-top: 10px ;
-
-        font-size: 18px;
+            max-width:400px;
+            margin-top: 10px ;
+            font-size: 18px;
         }
     }
     &-link{
@@ -61,8 +54,7 @@
         text-decoration: underline;
         align-content: flex-start;
         @media (max-width: 768px){
-    
-        font-size: 14px;
+            font-size: 14px;
         }
 
     }

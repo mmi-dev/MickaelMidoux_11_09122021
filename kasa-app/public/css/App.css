@@ -812,12 +812,10 @@ nav ul li a:hover {
   height: 100%;
   overflow: hidden;
   opacity: 0;
-  pointer-events: none;
 }
 
 .carousel_picture-active {
   opacity: 1;
-  pointer-events: visible;
 }
 
 .carousel_image {
