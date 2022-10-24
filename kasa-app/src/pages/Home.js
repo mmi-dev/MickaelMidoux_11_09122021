@@ -10,14 +10,14 @@ export default function About(){
         <main>
             <Banner bgImg={homeBannerImg} title=""/>
             <div className="cards">
-           { logementsData.map((lgt, index)=>
-                        <Card 
-                            title={lgt.title}
-                            imgUrl={lgt.cover}
-                            lgtId={lgt.id}
-                            key={index}
-                        />
-            )}
+                { logementsData.map((lgt, index)=>
+                    <Card 
+                        title={lgt.title}
+                        imgUrl={lgt.cover}
+                        lgtId={lgt.id}
+                        key={index}
+                    />
+                )}
             </div>
 
             </main>

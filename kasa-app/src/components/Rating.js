@@ -8,8 +8,7 @@ export default function Rating(props){
     const [currentRate, setCurrentRate] = React.useState(props.rate)
     const [overValue, setOverValue] = React.useState(undefined)
 
-    const nbStars = Array(props.nbStars).fill(0)
-    // const nbStars = Array(5).fill(0)
+    const nbStars = Array(props.nbStars).fill(0) // nombre d'etoiles pour la notation
 
     const handleClick = (rate)=>{
         setCurrentRate(rate)

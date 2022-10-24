@@ -4,7 +4,6 @@ import arrow from "./../img/arrow.svg"
 const DropDown = (props)=>{
     const [state, setState] = React.useState(props.state)
 
-
     const handelClick = (e)=>{
         if( state === "closed" ){
             e.target.parentElement.classList.add("open")
@@ -16,7 +15,6 @@ const DropDown = (props)=>{
             setState("closed")
         }
     }
-
 
     return(
          <div className="dropdown">

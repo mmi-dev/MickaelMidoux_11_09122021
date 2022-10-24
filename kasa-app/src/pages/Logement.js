@@ -67,6 +67,6 @@ export default function Logement(){
                     </div>
                 </div>
             </main>
-            );
+        );
     }
 }

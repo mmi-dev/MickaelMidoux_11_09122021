@@ -2,6 +2,9 @@ import React from "react";
 
 export default function Banner(props){
 
+ const getBackgroundUrl = () => {
+        return <img src={props.bgImg} alt="logo kasa" />;
+    }
 
     return(
          <div className="banner">
@@ -13,7 +16,4 @@ export default function Banner(props){
         </div>
         );
 
-    function getBackgroundUrl() {
-        return <img src={props.bgImg} alt="logo kasa" />;
-    }
 }
