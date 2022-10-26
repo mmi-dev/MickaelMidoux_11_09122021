@@ -1,0 +1,11 @@
+
+// @at-root
+$primary-color:#ff6060;
+$bg-grey:#f6f6f6;
+$star-grey:#e3e3e3;
+
+:export {
+    primary: $primary-color;
+    star: $star-grey;
+  }
+  
