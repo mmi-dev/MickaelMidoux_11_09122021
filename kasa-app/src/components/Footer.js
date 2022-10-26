@@ -12,7 +12,7 @@ export default function Footer(){
                 <img src={logo_nb} alt="logo kasa"/>
             </div>
             <div className="copyright">
-                &copy {year} Kasa. All rights reserved
+                &copy; {year} Kasa. All rights reserved
             </div>
         </footer>
         );
