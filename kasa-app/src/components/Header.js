@@ -1,8 +1,11 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import logo from "../img/logo.svg";
 
 export default function Header(){
+
+    let activeClassName = "active-page"
+
     return(
         <header>
             <div className="logo">
@@ -10,8 +13,23 @@ export default function Header(){
             </div>
             <nav>
                 <ul>
-                    <li><Link to="/">Accueil</Link></li>
-                    <li><Link to="/About">A Propos</Link></li>
+                    <li>
+                        <NavLink 
+                            to="." 
+                            className={({ isActive }) => isActive ? activeClassName : undefined }
+                            end
+                        >
+                            Accueil
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink 
+                            to="About" 
+                            className={({ isActive }) => isActive ? activeClassName : undefined }
+                        >
+                            A Propos
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
