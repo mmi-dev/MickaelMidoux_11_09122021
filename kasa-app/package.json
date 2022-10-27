@@ -2,7 +2,7 @@
   "name": "kasa-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mmi-dev.github.io/MickaelMidoux_11_09122021",
+  "homepage": "https://mmi-dev.github.io/MickaelMidoux_11_09122021/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
