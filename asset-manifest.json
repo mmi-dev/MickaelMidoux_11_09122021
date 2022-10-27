@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MickaelMidoux_11_09122021/static/css/main.ec274ee9.css",
+    "main.js": "/MickaelMidoux_11_09122021/static/js/main.1fcc9d9f.js",
+    "static/media/about-banner.png": "/MickaelMidoux_11_09122021/static/media/about-banner.cc7a05da2ad0e783537a.png",
+    "static/media/home-banner.png": "/MickaelMidoux_11_09122021/static/media/home-banner.024f945a990ae17b81b7.png",
+    "static/media/logo.svg": "/MickaelMidoux_11_09122021/static/media/logo.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "static/media/logo_nb.svg": "/MickaelMidoux_11_09122021/static/media/logo_nb.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/MickaelMidoux_11_09122021/index.html",
+    "static/media/arrow.svg": "/MickaelMidoux_11_09122021/static/media/arrow.74d5beb556bd592a866296b97b8d2957.svg",
+    "main.ec274ee9.css.map": "/MickaelMidoux_11_09122021/static/css/main.ec274ee9.css.map",
+    "main.1fcc9d9f.js.map": "/MickaelMidoux_11_09122021/static/js/main.1fcc9d9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec274ee9.css",
+    "static/js/main.1fcc9d9f.js"
+  ]
+}
