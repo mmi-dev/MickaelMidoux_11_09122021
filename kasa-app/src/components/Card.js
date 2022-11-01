@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Link} from "react-router-dom";
 
-const DropDown = (props)=>{
+const Card = (props)=>{
 
     return(
         <Link to={"/logement/"+props.lgtId}>
@@ -15,4 +15,4 @@ const DropDown = (props)=>{
         );
 }
 
-export default DropDown;
+export default Card;
